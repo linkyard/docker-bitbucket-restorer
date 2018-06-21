@@ -12,6 +12,8 @@ RUN mkdir -p /opt/restore && \
   mv /opt/restore/bitbucket-backup-client-*/* /opt/restore/ && \
   rm /opt/restore/backup-client.zip
 
-VOLUME [ "/data" ]
+RUN mkdir -p /data
+
+VOLUME [ "/data/home" ]
 
 RUN [ "/bin/bash" ]
