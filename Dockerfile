@@ -2,7 +2,7 @@ FROM openjdk:8-alpine
 LABEL maintainer="mario.siegenthaler@linkyard.ch"
 
 RUN apk --no-cache add \
-  bash \
+  bash vim \
   curl ca-certificates \
   postgresql
 
