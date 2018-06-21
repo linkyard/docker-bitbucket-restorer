@@ -1,4 +1,4 @@
-FROM eu.gcr.io/linkyard-191615/alpine-oracle-jdk:8
+FROM openjdk:8-alpine
 LABEL maintainer="mario.siegenthaler@linkyard.ch"
 
 RUN apk --no-cache add \
